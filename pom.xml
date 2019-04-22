@@ -1162,6 +1162,11 @@
                 <version>${carbon.deployment.version}</version>
                 <type>zip</type>
             </dependency>
+            <dependency>
+                <groupId>org.wso2.orbit.org.owasp.encoder</groupId>
+                <artifactId>encoder</artifactId>
+                <version>${encoder.wso2.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -1399,6 +1404,9 @@
         <!-- Servet Version -->
         <version.javax.servlet.jsp>2.2.0.v201112011158</version.javax.servlet.jsp>
         <version.javax.servlet>3.0.0.v201112011016</version.javax.servlet>
+
+        <!-- OWASP Encoder -->
+        <encoder.wso2.version>1.2.0.wso2v1</encoder.wso2.version>
 
         <!-- Misc -->
         <!--<jxl.wso2.version>2.6.8.wso2v1</jxl.wso2.version>-->

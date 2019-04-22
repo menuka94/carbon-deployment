@@ -59,7 +59,7 @@ padding:0 10px;
 
     ServiceMetaData[] serviceData;
     int numberOfPages;
-    String pageNumber = CharacterEncoder.getSafeText(request.getParameter("pageNumber"));
+    String pageNumber = Encode.forHtml(request.getParameter("pageNumber"));
     if (pageNumber == null) {
         pageNumber = "0";
     }
